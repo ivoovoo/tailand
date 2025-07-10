@@ -74,7 +74,7 @@ function Contact({ setIsModalOpen }) {
               соцсети
             </h4>
             <div className="flex items-center gap-[20px]">
-              <img src="/instagram.png" alt="Instagram" />
+              
               <img src="/websiteIcon.svg" alt="Website" />
             </div>
           </motion.div>
