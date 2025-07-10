@@ -11,7 +11,7 @@ function Modal({ isModalOpen, setIsModalOpen }) {
     setIsLoading(true);
 
     const message = `👤 Имя: ${name}\n📞 Номер телефона: ${phone}`;
-    const botToken = "8179911619:AAGYfUcFUGUYnJSqA3eNaJyfW0g9ZL1nPsM";
+    const botToken = "7521001735:AAEK-YAf_fa4um7uDGLGlTPkQX51sPV5fU4";
     const chatId = "-1002722135082";
 
     try {
