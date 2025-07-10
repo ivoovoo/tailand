@@ -12,7 +12,7 @@ function Modal({ isModalOpen, setIsModalOpen }) {
 
     const message = `👤 Имя: ${name}\n📞 Номер телефона: ${phone}`;
     const botToken = "7521001735:AAEK-YAf_fa4um7uDGLGlTPkQX51sPV5fU4";
-    const chatId = "-1002722135082";
+    const chatId = "-1002795258640";
 
     try {
       await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
