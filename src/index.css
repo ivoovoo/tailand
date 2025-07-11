@@ -126,3 +126,13 @@ input[type=number] {
 .bg-11 {
   background-image: url('/22.jpg');
 }
+
+.second_david{
+  background-image: url("/david_bg_2.jpg");
+}
+
+
+
+.break-word{
+  word-break: break-word;
+}

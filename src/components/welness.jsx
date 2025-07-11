@@ -50,7 +50,7 @@ function Welness() {
                 viewport={{ once: true, amount: 0.2 }}
                 className="bg-white flex flex-col p-[25px] rounded-[30px] sm:rounded-[40px] welness_card"
               >
-                <span className="font-inter uppercase text-[#1E3A8A] text-[22px] sm:text-[24px] lg:text-[28px] font-[700]">
+                <span className="font-inter break-word uppercase text-[#1E3A8A] text-[22px] sm:text-[24px] lg:text-[28px] font-[700]">
                   {item.cardTitle}
                 </span>
                 <span className="font-inter text-[14px] sm:text-[16px] mt-[15px] sm:mt-[20px]">

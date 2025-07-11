@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 function BgSec() {
   return (
-    <div className="bg_section relative">
+    <div className="bg_section relative !mt-0">
       <div className="bg_filter absolute inset-0 z-0"></div>
 
       <motion.h1

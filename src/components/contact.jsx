@@ -29,7 +29,9 @@ function Contact({ setIsModalOpen }) {
             transition={{ delay: 0.3, duration: 0.6 }}
             viewport={{ once: true }}
           >
-            8 700 510 1650
+            <a href="tel:+7 (980) 9999988">
+              +7 (980) 9999988
+            </a>
           </motion.h1>
 
           <motion.div
@@ -58,9 +60,9 @@ function Contact({ setIsModalOpen }) {
             <h4 className="uppercase text-[20px] md:text-[25px] font-[500]">
               e-mail
             </h4>
-            <span className="text-[18px] md:text-[20px] font-[500]">
+            <a href="email:samur.group@mail.ru" className="text-[18px] md:text-[20px] font-[500]">
               samur.group@mail.ru
-            </span>
+            </a>
           </motion.div>
 
           <motion.div

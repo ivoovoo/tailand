@@ -24,6 +24,7 @@ import { Toaster } from "react-hot-toast";
 import Year11 from "./components/11year";
 import Map from "./components/map";
 import SliderUPR from "./components/sliderUPR";
+import David from "./components/david";
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -36,7 +37,7 @@ function App() {
       <BgSec />
       <WeProvide />
       <ImplementedProjects />
-      <ExtroGroup />
+      {/* <ExtroGroup /> */}
 
       <Year11 />
 
@@ -45,6 +46,7 @@ function App() {
       <StarSec />
       <TwoPicSec />
       <Spectrum />
+      <David />
       <Sss />
       <CurrentProjects />
       <AfterT />
