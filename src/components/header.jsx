@@ -3,13 +3,7 @@ import Wrapper from "../layout/wrapper";
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 
-const images = [
-  "/h1.jpg",
-  "/h2.jpg",
-  "/h5.jpg",
-  "/h3.jpg",
-  "/h4.jpg"
-];
+const images = ["/h4.jpg", "/h5.jpg", "/h2.jpg", "/h1.jpg", "/h3.jpg"];
 
 function Header({ setIsModalOpen }) {
   const [currentImage, setCurrentImage] = useState(0);
@@ -48,7 +42,10 @@ function Header({ setIsModalOpen }) {
       <Wrapper>
         <nav className="text-white flex items-center justify-between relative z-[2]">
           <img src="/logo.svg" className="w-[100px] py-2" />
-          <a href="tel:+7 (980) 9999988" className="text-[18px] md:text-[20px] lg:text-[25px]">
+          <a
+            href="tel:+7 (980) 9999988"
+            className="text-[18px] md:text-[20px] lg:text-[25px]"
+          >
             7 (980) 9999988
           </a>
         </nav>
