@@ -33,13 +33,13 @@ function ImplementedProjects() {
   return (
     <Wrapper>
       <motion.h1
-        className="text-[30px] md:text-[55px] lg:leading-[60px] lg:text-[65px] text-center py-[100px] capitalize"
+        className="text-[30px] md:text-[55px] lg:leading-[60px] lg:text-[65px] text-center py-[100px]"
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true, amount: 0.4 }}
       >
-        реализованные <br /> проекты
+        Реализованные проекты
       </motion.h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-4 pb-20">
