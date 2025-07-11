@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 const images = [
   "/h1.jpg",
   "/h2.jpg",
+  "/h5.jpg",
   "/h3.jpg",
   "/h4.jpg"
 ];
