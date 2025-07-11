@@ -37,7 +37,7 @@ function App() {
       <BgSec />
       <WeProvide />
       <ImplementedProjects />
-      {/* <ExtroGroup /> */}
+      <ExtroGroup />
 
       <Year11 />
 
