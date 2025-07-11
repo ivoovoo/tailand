@@ -21,8 +21,9 @@ function ExtroGroup() {
         className="bg-cover bg-center h-[70vh] sm:h-[60vh] xl:h-screen my-[80px] text-white relative px-[20px] xl:px-0"
       >
         <Wrapper>
-          <img src="/logo.svg" alt="logo" className="w-[120px] sm:w-[150px] md:w-[160px] xl:w-[200px] md:absolute top-8 xl:top-14 max-xl:right-2  pt-2 md:pt-0" />
           <div className="flex flex-col items-start justify-center gap-[30px] h-[55vh] sm:h-[60vh] xl:h-screen">
+          <img src="/logo.svg" alt="logo" className="w-[120px] sm:w-[150px] md:w-[160px] xl:w-[200px] pt-2 md:pt-0 mb-10" />
+
             <img src="/uproGroupLogo.svg" className="w-[150px] md:w-[250px]" />
             <h2 className="text-[30px] md:text-[50px] lg:text-[60px] 2xl:text-[70px] xl:leading-[60px] font-[600] leading-[45px] font-inter max-w-[300px] md:max-w-[400px]">
               Гостиничная управляющая компания
